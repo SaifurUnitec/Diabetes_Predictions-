@@ -1,4 +1,4 @@
-# Diabetes Predictions by Using Machine Learning Models
+# Diabetes Prediction with R: A Machine Learning Approach
 
 <img src="D1.jpg" alt="Database Normalization" width="400"/>
 
