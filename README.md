@@ -8,3 +8,5 @@ The goal of this research is to recognize the early signs of diabetes and take p
 Dataset Link: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
 
 In this study, Logistic Regression, Random Forest and Decision Tree are the machine learning algorithms applied by R software. Besides comparing accuracy, other factors such as precision, recall, F1 score and AUC are evaluated to find out which model performs best. This study consists of exploratory data analysis, data preprocessing, result analysis and evaluation, a comparison with other existing studies and a conclusion. 
+
+![Image Description](images/D2.jpg)
