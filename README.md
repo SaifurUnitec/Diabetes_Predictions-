@@ -37,7 +37,9 @@ The BRFSS collected the US Diabetes Health Indicators Dataset which is now publi
 
 ### 3.2 Exploratory Data Analysis
 Before using machine learning models, it is essential to use Exploratory Data Analysis (EDA) to discover the structure and patterns in the dataset. 
+
 **3.2.1 Dataset Overview**
 <img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D3.jpg?raw=true" alt="Image Description" width="400"/>
 Table 1: Dataset Structure
+
 Table 1 shows the layout of the diabetes dataset which consists of 253,680 observations and 11 variables. The target variable serves to indicate whether a person is non-diabetic (0) or diabetic (1). Most predictors are health-related and demographic features, including high blood pressure, high cholesterol, smoker, physical activity, difficulty walking and Sex and are either binary or ordinal. BMI, MentHlth (mental health days) and Age are all continuous variables with a high range of values.
