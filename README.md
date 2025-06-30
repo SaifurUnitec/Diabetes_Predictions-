@@ -29,4 +29,5 @@ In this case, Logistic Regression, Random Forest and Decision Trees will be used
 The step-by-step problem solution and development are outlined in Figure 1. It represents the stages of data collection, analysing it and making sense of what it means.
 
 <img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D2.jpg?raw=true" alt="Image Description" width="400"/>
-# Figure 1: Architecture Design
+**Figure 1: Architecture Design**
+
