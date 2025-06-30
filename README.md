@@ -1,3 +1,5 @@
+# Diabetes Prediction with R: A Machine Learning Approach
+
 # 1. Introduction and Problem Description
 
 <img src="D1.jpg" alt="Database Normalization" width="400"/>
@@ -26,5 +28,5 @@ In this case, Logistic Regression, Random Forest and Decision Trees will be used
 # 3. Solution Design and Development
 The step-by-step problem solution and development are outlined in Figure 1. It represents the stages of data collection, analysing it and making sense of what it means.
 
-![Image Description](https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D2.jpg)
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D2.jpg?raw=true" alt="Image Description" width="400"/>
 # Figure 1: Architecture Design
