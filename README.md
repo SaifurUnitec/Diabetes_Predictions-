@@ -18,7 +18,7 @@ It is possible to make real-time decisions with Adaptive Business Intelligence (
 
 In this case, Logistic Regression, Random Forest and Decision Trees will be used as machine learning methods to find patterns and predict diabetes. 
 
-# 2.1 Machine Learning Classifier 
+### 2.1 Machine Learning Classifier 
 **•	Logistic Regression:**  Logistic regression is used when the dependent variable is binary. It can be used to see how a binary result varies with different independent variables that may be nominal, ordinal, interval or ratio (Hosmer et al., 2013). This type of algorithm uses likelihood and can only produce two results: yes or no, true or false, 0 or 1, high or low. If the probability is less than 0.5, it becomes 0 and if it is more than 0.5, it becomes 1 (Chang et al., 2022).
 
 **•	Random Forest:** Random Forest (RF) combines a number of decision trees to build a forest as an ensemble technique. Each tree in the forest is built by using a random part of the data and selecting a set of features. RF is powerful for both making predictions and for determining which independent variables are most important for predicting a dependent outcome (Mehta & Patnaik, 2021). 
@@ -29,9 +29,9 @@ In this case, Logistic Regression, Random Forest and Decision Trees will be used
 The step-by-step problem solution and development are outlined in Figure 1. It represents the stages of data collection, analysing it and making sense of what it means.
 
 <img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D2.jpg?raw=true" alt="Image Description" width="400"/>
-***Figure 1: Architecture Design***
+Figure 1: Architecture Design
 
-# 3.1 Data Description
+### 3.1 Data Description
 The BRFSS collected the US Diabetes Health Indicators Dataset which is now published and shared by Alex Teboul on Kaggle. There are 253,680 observations in the dataset that represent adult respondents from the United States. This study examined 10 feature variables from the dataset such as High Blood Pressure, High Cholesterol, Body Mass Index (BMI), Smoker, Physical Activity, General Health Conditions, Mental Health, Difficulty Walking, Sex and Age. The target variable is set to binary with 1 meaning diabetes and 0 meaning no diabetes.
 <img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D34.jpg?raw=true" alt="Image Description" width="400"/>
 
