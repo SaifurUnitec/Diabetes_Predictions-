@@ -45,3 +45,66 @@ Before using machine learning models, it is essential to use Exploratory Data An
 Table 1: Dataset Structure
 
 Table 1 shows the layout of the diabetes dataset which consists of 253,680 observations and 11 variables. The target variable serves to indicate whether a person is non-diabetic (0) or diabetic (1). Most predictors are health-related and demographic features, including high blood pressure, high cholesterol, smoker, physical activity, difficulty walking and Sex and are either binary or ordinal. BMI, MentHlth (mental health days) and Age are all continuous variables with a high range of values.
+
+**3.2.2 Missing Value**
+
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D4.jpg?raw=true" alt="Image Description" width="400"/>
+
+Table 2: Missing Value Check
+
+Table 2 shows that all the variables are clean, no missing values, which suggests the data is in good for early diabetes detection.
+
+**3.2.3 Class Distribution of Target Variable**
+
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D5.jpg?raw=true" alt="Image Description" width="400"/>
+
+Table 3: Class Distribution
+
+The data demonstrates that, among all individuals, 86.07% are non-diabetic (label 0) and only 13.93% are diabetic or prediabetic (label 1), meaning the dataset is highly imbalanced (Table 3). If the data is not balanced, machine learning models may favour the majority class (non-diabetic) which can result in not identifying as many people at risk for diabetes. A solution to this is achieved with algorithms like the SMOTE (Synthetic Minority Over-sampling Technique).
+
+**3.2.4 Descriptive Statistics**
+
+The descriptive statistics point out that BMI, HighBP, HighChol, GenHlth and MentHlth are important factors related to diabetes risk. The BMI average is 28.38 and there is a clear right skew (2.12) which points to most people being overweight and a higher risk of diabetes. Moreover, 43% of people have high blood pressure and 42% have high cholesterol, both problems found in people with diabetes. 
+
+**3.2.5 Visualize Distributions (Histograms)**
+
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D6.jpg?raw=true" alt="Image Description" width="400"/>
+
+Figure 2: BMI Distribution
+
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D7.jpg?raw=true" alt="Image Description" width="400"/>
+
+Figure 3: Mental Health Days
+
+Figure 2 demonstrates that the majority of individuals in this group have a BMI between 25 and 35 which suggests they are mainly overweight. As Figure 3 shows, the data is right-skewed, indicating that a lot of people experience no poor mental health days, but a significant number report struggling with mental health daily for as long as 30 days. Such patterns suggest that both physical and mental wellness play a role in identifying people who are more likely to get diabetes.
+
+**3.2.6 Group Comparisons with Boxplots**
+
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D8.jpg?raw=true" alt="Image Description" width="400"/>
+
+Figure 4: BMI by Diabetes Status
+
+In the boxplot (figure 4), the median BMI is generally higher among individuals with diabetes (group 1) than among non-diabetic individuals (group 0). The interquartile range is wider and the BMI range more extreme for the diabetic group which suggests a larger variation among them and a higher likelihood of obesity. 
+
+**3.2.7 Bivariate Bar plots (Categorical Features)**
+
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D9.jpg?raw=true" alt="Image Description" width="400"/>
+
+Figure 5: Diabetes vs High Blood Pressure 
+
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D10.jpg?raw=true" alt="Image Description" width="400"/>
+
+Figure 6: Diabetes vs Physical Activity
+
+In Figure 5, we can see that more diabetic individuals (label 1) have high blood pressure which means that high blood pressure is a frequent issue and a major risk factor in people with diabetes. According to Figure 6, diabetics are much less likely to be physically active than non-diabetics which might suggest that being inactive can lead to a higher risk of diabetes. As a result, the early diabetes prediction models should take into account both high blood pressure and physical activity.
+
+**3.2.8 Correlation Matrix**
+
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D11.jpg?raw=true" alt="Image Description" width="400"/>
+
+Figure 7: Correlation Heatmap of Diabetes Dataset
+
+The correlation heatmap (Figure 7) shows that there is a strong connection between Diabetes_binary and HighBP (0.26), GenHlth (0.29), BMI (0.22) and DiffWalk (0.22), meaning that individuals with these conditions have a higher chance of being diabetic. While there is a slight positive correlation (0.12) between physical activity and diabetes, a negative correlation (−0.12) also exists, meaning that lower levels of physical activity may increase the risk of diabetes. Because of these patterns, including these variables helps create a reliable early diabetes detection model.
+
+
+
