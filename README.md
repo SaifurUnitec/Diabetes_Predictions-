@@ -1,9 +1,8 @@
 # Diabetes Prediction with R: A Machine Learning Approach
 
-# 1. Introduction and Problem Description
-
 <img src="D1.jpg" alt="Database Normalization" width="400"/>
 
+# 1. Introduction and Problem Description
 
 Diabetes is a common and highly widespread chronic illness, and it is estimated that over 422 million individuals have diabetes all over the world (Hasan & Yasmin, 2025). Taking care of diabetes well is important to reduce the chance of eye, foot and mouth problems, kidney disease and some types of cancer. Early detection of diabetes is one of the best ways to handle it (Chang et al., 2022). Two methods are used to diagnose diabetes– the first is done by medical professionals and the second is with the help of technology. Early symptoms of diabetes can be hard to find just by conducting manual tests (Chaki et al., 2020). In this context, early identification of diabetes and people at higher risk helps prevent complications and manage the disease well. 
 
@@ -14,6 +13,7 @@ Dataset Link: https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicat
 In this study, Logistic Regression, Random Forest and Decision Tree are the machine learning algorithms applied by R software. Besides comparing accuracy, other factors such as precision, recall, F1 score and AUC are evaluated to find out which model performs best. This study consists of exploratory data analysis, data preprocessing, result analysis and evaluation, a comparison with other existing studies and a conclusion. 
 
 # 2. ABI Technique Review
+
 It is possible to make real-time decisions with Adaptive Business Intelligence (ABI), as it uses data mining, machine learning and optimization (Michalewicz et al., 2007). ABI systems are different from traditional ones since they keep learning and adjusting to new data which makes them fit for use in areas like healthcare analytics.
 
 In this case, Logistic Regression, Random Forest and Decision Trees will be used as machine learning methods to find patterns and predict diabetes. 
@@ -29,5 +29,5 @@ In this case, Logistic Regression, Random Forest and Decision Trees will be used
 The step-by-step problem solution and development are outlined in Figure 1. It represents the stages of data collection, analysing it and making sense of what it means.
 
 <img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D2.jpg?raw=true" alt="Image Description" width="400"/>
-**Figure 1: Architecture Design**
+Figure 1: Architecture Design
 
