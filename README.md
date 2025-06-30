@@ -31,3 +31,7 @@ The step-by-step problem solution and development are outlined in Figure 1. It r
 <img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D2.jpg?raw=true" alt="Image Description" width="400"/>
 ***Figure 1: Architecture Design***
 
+# 3.1 Data Description
+The BRFSS collected the US Diabetes Health Indicators Dataset which is now published and shared by Alex Teboul on Kaggle. There are 253,680 observations in the dataset that represent adult respondents from the United States. This study examined 10 feature variables from the dataset such as High Blood Pressure, High Cholesterol, Body Mass Index (BMI), Smoker, Physical Activity, General Health Conditions, Mental Health, Difficulty Walking, Sex and Age. The target variable is set to binary with 1 meaning diabetes and 0 meaning no diabetes.
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D34.jpg?raw=true" alt="Image Description" width="400"/>
+
