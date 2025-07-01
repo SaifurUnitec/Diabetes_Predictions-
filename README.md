@@ -113,9 +113,11 @@ The correlation heatmap (Figure 7) shows that there is a strong connection betwe
 ### 3.3 Data Preprocessing
 
 **3.3.1 Feature selection** 
+
 It is important to select the proper features because this helps to remove irrelevant ones and to select those best suited for the target variable. Application of feature selection makes the classifier to reduce the execution time and perform better. 
 
 **•	Feature correlation**
+
 To identify relationships between the target variable “Diabetes_binary” and the features, the correlation plot (Figure 8) was used. Things like general health, high blood pressure, walking difficulty, BMI and BMI, as well as age, were strongly connected to diabetes, whereas physical activity showed a weak negative relationship (−0.12). The study pointed out the main factors that can lead to diabetes.
 
 <img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D13.jpg?raw=true" alt="Image Description" width="400"/>
@@ -145,6 +147,7 @@ Table 6: Train and Test data
 Table 7: Proportion of Diabetic and Non-Diabetic in Train & Test Dataset
 
 ### 3.3.3 SMOTE Algorithm
+
 As shown in Table 7, there are more non-diabetic records (86.07%) than diabetic records (13.93%). Bias and poor training results may happen if the training dataset is not well balanced. For this reason, the data imbalance must be corrected before creating the model. The SMOTE (Synthetic Minority Oversampling Technique) preprocessing algorithm was used to address this issue. The main point of SMOTE is to produce extra synthetic samples for the minority group until both classes have equal numbers (Mishra, n.d.). It also enables classifiers to better generalise the outcomes of their training. Figure 9 shows the change in how diabetes is distributed before and after oversampling. 
 
 <img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D17.jpg?raw=true" alt="Image Description" width="400"/>
@@ -210,6 +213,7 @@ As shown in Figure 10, HighBP, GenHlth and HighChol contribute most to how accur
 Figure 10: Variable importance plots
 
 ### 3.4.3 Decision Tree
+
 Machine learning often uses decision trees as a common method. Table 12 reflects a moderate ability to predict diabetes. The model’s overall accuracy is 76.59%, so it correctly predicts if someone has diabetes. The model can identify actual diabetic cases well (sensitivity of 0.7916), but it has a lower specificity (0.6073) which means it struggles to detect non-diabetic cases. Since the positive predictive value is high (0.9257), the model is generally correct when it predicts a patient has diabetes. The low negative predictive value (0.3205) means it can be challenging to confidently exclude diabetes in this case. Since there is class imbalance, the balanced accuracy of 0.6994 gives a fair judgment by considering sensitivity and specificity together.
 
 <img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D25.jpg?raw=true" alt="Image Description" width="400"/>
@@ -265,6 +269,7 @@ Figure 15: Prediction Output
 Such reliable predictions prove that logistic regression can handle the classification of diabetic and non-diabetic patients.
 
 # 4. Comparison with Existing Research
+
 Looking at our logistic regression model and findings from previous studies lets us check how well our model functions compared to different datasets and algorithms. It gives a quick look at how the models perform on different datasets. 
 
 <img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D33.jpg?raw=true" alt="Image Description" width="400"/>
