@@ -285,17 +285,30 @@ This study uses a dataset from BRFSS in 2015 that gives the distribution of diab
 # 6. References 
 
 Alzubaidi, L., Zhang, J., Humaidi, A. J., Al-Dujaili, A., Duan, Y., Al-Shamma, O., Santamaría, J., Fadhel, M. A., Al-Amidie, M., & Farhan, L. (2021). Review of deep learning: concepts, CNN architectures, challenges, applications, future directions. Journal of Big Data, 8(1). https://doi.org/10.1186/s40537-021-00444-8
+
 Bahassine, S., Madani, A., Al-Sarem, M., & Kissi, M. (2020). Feature selection using an improved Chi-square for Arabic text classification. Journal of King Saud University - Computer and Information Sciences, 32(2), 225–231. https://doi.org/10.1016/j.jksuci.2018.05.010
+
 Bhargav, P., & Sashirekha, K. (2023). A Machine Learning Method for Predicting Loan Approval by Comparing the Random Forest and Decision Tree Algorithms. Journal of Survey in Fisheries Sciences, 10(1S), 1803–1813. https://doi.org/10.17762/sfs.v10i1S.414
+
 Chaki, J., Thillai Ganesh, S., Cidham, S. K., & Ananda Theertan, S. (2020). Machine learning and artificial intelligence based Diabetes Mellitus detection and self-management: A systematic review. Journal of King Saud University - Computer and Information Sciences, 34(6). https://doi.org/10.1016/j.jksuci.2020.06.013
+
 Chang, V., Ganatra, M. A., Hall, K., Golightly, L., & Xu, Q. A. (2022). An assessment of machine learning models and algorithms for early prediction and diagnosis of diabetes using health indicators. Healthcare Analytics, 2, 100118. https://doi.org/10.1016/j.health.2022.100118
+
 Faruque, M. F., Asaduzzaman, & Sarker, I. H. (2019). Performance Analysis of Machine Learning Techniques to Predict Diabetes Mellitus. ArXiv.org. https://arxiv.org/abs/1902.10028
+
 Hasan, M., & Yasmin, F. (2025, May 11). Predicting Diabetes Using Machine Learning: A Comparative Study of Classifiers. https://doi.org/10.48550/arXiv.2505.07036
+
 Hosmer Jr, D. W., Lemeshow, S., & Sturdivant, R. X. (2013). Applied logistic regression. John Wiley & Sons.
+
 Kopitar, L., Kocbek, P., Cilar, L., Sheikh, A., & Stiglic, G. (2020). Early detection of type 2 diabetes mellitus using machine learning-based prediction models. Scientific Reports, 10(1). https://doi.org/10.1038/s41598-020-68771-z
+
 Krawczyk, B. (2016). Learning from imbalanced data: open challenges and future directions. Progress in Artificial Intelligence, 5(4), 221–232. https://doi.org/10.1007/s13748-016-0094-0
+
 Mehta, S., & Patnaik, K. S. (2021). Improved prediction of software defects using ensemble machine learning techniques. Neural Computing and Applications. https://doi.org/10.1007/s00521-021-05811-3
+
 Mishra, S. (n.d.). Handling Imbalanced Data: SMOTE vs. Random Undersampling. In International Research Journal of Engineering and Technology. Retrieved May 26, 2025, from https://www.irjet.net/archives/V4/i8/IRJET-V4I857.pdf
+
 TEBOUL, A. (2022). Diabetes Health Indicators Dataset. Www.kaggle.com. https://www.kaggle.com/datasets/alexteboul/diabetes-health-indicators-dataset
+
 Xie, Z., Nikolayeva, O., Luo, J., & Li, D. (2019). Building Risk Prediction Models for Type 2 Diabetes Using Machine Learning Techniques. Preventing Chronic Disease, 16. https://doi.org/10.5888/pcd16.190109
 
