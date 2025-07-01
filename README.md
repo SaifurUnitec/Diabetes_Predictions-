@@ -88,11 +88,11 @@ In the boxplot (figure 4), the median BMI is generally higher among individuals 
 
 **3.2.7 Bivariate Bar plots (Categorical Features)**
 
-<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D9.jpg?raw=true" alt="Image Description" width="400"/>
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D10.jpg?raw=true" alt="Image Description" width="400"/>
 
 Figure 5: Diabetes vs High Blood Pressure 
 
-<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D10.jpg?raw=true" alt="Image Description" width="400"/>
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D11.jpg?raw=true" alt="Image Description" width="400"/>
 
 Figure 6: Diabetes vs Physical Activity
 
@@ -100,11 +100,20 @@ In Figure 5, we can see that more diabetic individuals (label 1) have high blood
 
 **3.2.8 Correlation Matrix**
 
-<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D11.jpg?raw=true" alt="Image Description" width="400"/>
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D12.jpg?raw=true" alt="Image Description" width="400"/>
 
 Figure 7: Correlation Heatmap of Diabetes Dataset
 
 The correlation heatmap (Figure 7) shows that there is a strong connection between Diabetes_binary and HighBP (0.26), GenHlth (0.29), BMI (0.22) and DiffWalk (0.22), meaning that individuals with these conditions have a higher chance of being diabetic. While there is a slight positive correlation (0.12) between physical activity and diabetes, a negative correlation (−0.12) also exists, meaning that lower levels of physical activity may increase the risk of diabetes. Because of these patterns, including these variables helps create a reliable early diabetes detection model.
 
+### 3.3 Data Preprocessing
+
+**3.3.1 Feature selection** 
+It is important to select the proper features because this helps to remove irrelevant ones and to select those best suited for the target variable. Application of feature selection makes the classifier to reduce the execution time and perform better. 
+
+**•	Feature correlation**
+To identify relationships between the target variable “Diabetes_binary” and the features, the correlation plot (Figure 8) was used. Things like general health, high blood pressure, walking difficulty, BMI and BMI, as well as age, were strongly connected to diabetes, whereas physical activity showed a weak negative relationship (−0.12). The study pointed out the main factors that can lead to diabetes.
+
+<img src="https://github.com/SaifurUnitec/Diabetes_Predictions_With_R/blob/my-new-branch/D13.jpg?raw=true" alt="Image Description" width="400"/>
 
 
